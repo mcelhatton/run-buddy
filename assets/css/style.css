@@ -1,13 +1,13 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 /* apply styles to <header>*/
 header {
-    padding: 20px 35px;
+    padding: 20px;
     background-color: #39a6b2;
-    width: 100%;
 }
 
 header h1 {
@@ -105,7 +105,7 @@ section {
 .form-input {
     border: 1px solid #024e76;
     display: block;
-    padding: 7px 15px;
+    padding: 7px;
     font-size: 16px;
     color: #024e76;
     width: 100%;
@@ -117,7 +117,7 @@ section {
 }
 
 .hero-form button {
-    color: #024e76;
+    color: #fce138;
     background-color: #024e76;
     border: none;
     padding: 10px 20px;
